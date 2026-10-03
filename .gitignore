@@ -1,0 +1,10 @@
+# This repository is presentation-only.
+node_modules/
+.venv/
+.env
+.env.*
+backend/private/
+data/
+*.db
+*.sqlite*
+*.patch
