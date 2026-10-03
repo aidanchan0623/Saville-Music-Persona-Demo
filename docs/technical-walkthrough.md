@@ -6,13 +6,13 @@ The application accepts Google Takeout history formats and supports optional You
 
 Overlapping copies of an occurrence can be removed without deleting genuine repeated plays. Recording identity keeps versions such as live, remix, acoustic, and remaster separate. Artist and genre enrichment adds evidence where available, rather than assigning every unfamiliar name to a genre.
 
-The public browser walkthrough uses the built-in synthetic dataset. A separate historical HTML Takeout ZIP was also imported and analysed locally; its personal contents are excluded from this presentation.
+This presentation includes the earlier synthetic walkthrough and new approved real-profile screenshots and aggregates. The full historical HTML Takeout ZIP was imported locally; it is not included. An importable 30-event synthetic sample is provided separately in `demo/`.
 
 ## 2. One period, consistent evidence
 
 Period selection uses a configured local timezone. A calendar month, last 30 days, rolling year, and all history have distinct boundaries. The same period profile feeds counts, rankings, listening scores, and report evidence.
 
-In the tested demo on 3 October 2026:
+In the earlier anonymous demo on 3 October 2026:
 
 - This Month showed 2 detected plays.
 - Rolling Year showed 25 detected plays across 25 active days.
@@ -38,7 +38,7 @@ Catalogue enrichment is an explicit optional action after local import. Exact vi
 
 The backend first builds deterministic personality, ranking, duration, and release-year evidence. Ollama runs `gemma3:4b` locally to produce a small set of report-language fields. Schema-constrained generation, validation, time limits, and deterministic fallback copy keep the report usable when the model cannot produce an acceptable response.
 
-The tested regeneration succeeded. Its generation metadata reported `gemma3:4b`, with approximately 51 seconds spent generating language on this machine. This is one observed run, not a latency benchmark. A subsequent report read returned `cache-gemma`.
+The latest real-profile browser regeneration succeeded in approximately 8.1 seconds with `gemma3:4b`, prompt version 11 and no fallback reason. A subsequent report read returned `cache-gemma`. This is one observed run, not a latency benchmark. Three direct tone-mode checks also returned valid Gemma prose. [The investigation](gemma-reliability.md) documents five named schema fields, deterministic Musical Age, a shared time budget and one repair attempt.
 
 Report cache identity includes the selected source, period, analytics fingerprint, and version information, so prose can follow the evidence it was generated from.
 
@@ -59,7 +59,18 @@ Fit percentages are internal scores, not measured prediction accuracy. Live sear
 
 Application setup and raw source are maintained separately from this screenshot presentation.
 
-## Screenshot gallery
+## Real-profile evidence
+
+The import contains 26,325 ranked music plays across 790 active Malaysian calendar days, from 23 April 2024 to 28 July 2026. Canonical analysis reports 4,144 recording groups; genre, duration and release-year coverage are 70.6%, 45.9% and 58.4%. These are import-specific figures, not the small demo fixture's expected totals.
+
+## Latest screenshot gallery
+
+- [Real history overview](../assets/13-real-overview.png)
+- [Real top songs](../assets/11-real-top-songs.jpg)
+- [Real rolling-year insights](../assets/12-real-insights.jpg)
+- [Real-profile Gemma success](../assets/10-real-persona.jpg)
+
+## Earlier anonymous screenshot gallery
 
 - [Overview](../assets/01-overview.jpg)
 - [Top songs](../assets/02-top-songs.jpg)

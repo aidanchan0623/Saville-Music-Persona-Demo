@@ -1,0 +1,495 @@
+{
+  "schemaVersion": 8,
+  "source": "youtube",
+  "mode": "roast",
+  "period": {
+    "key": "rolling_year",
+    "label": "Rolling year · Oct 4, 2025-Oct 3, 2026",
+    "startDate": "2025-10-04",
+    "endDate": "2026-10-03",
+    "timezone": "Asia/Kuala_Lumpur"
+  },
+  "personality": {
+    "id": "heavy_music_therapist",
+    "title": "The Heavy-Music Therapist",
+    "shortDescription": "Let's just say your playlist is a meticulously curated collection of sonic landscapes – a beautiful, slightly overwhelming, and occasionally intense journey. It’s like a really dedicated mood board, but for emotions.",
+    "roastDescription": "You’re basically a human amplifier for feelings.",
+    "confidence": 1.0,
+    "habits": [
+      "Album Loyalist",
+      "Comfort Repeater",
+      "Genre Explorer"
+    ],
+    "generationSource": "cache-gemma"
+  },
+  "listeningWorld": {
+    "detectedMinutes": 23601.6,
+    "formattedTime": "393 hr 22 min",
+    "durationCoverage": 0.408,
+    "genreCoverage": 0.719,
+    "genres": [
+      {
+        "key": "alternative_indie_rock",
+        "label": "Alternative / Indie Rock",
+        "percentage": 31.1,
+        "detectedPlays": 4246
+      },
+      {
+        "key": "emo_pop_punk_post_hardcore",
+        "label": "Emo / Pop Punk / Post-Hardcore",
+        "percentage": 8.1,
+        "detectedPlays": 1106
+      },
+      {
+        "key": "heavy_alternative_metalcore",
+        "label": "Heavy Alternative / Metalcore",
+        "percentage": 5.9,
+        "detectedPlays": 805
+      },
+      {
+        "key": "pop_pop_rock_crossover",
+        "label": "Pop / Pop Rock Crossover",
+        "percentage": 5.8,
+        "detectedPlays": 792
+      },
+      {
+        "key": "cinematic_soundtrack",
+        "label": "Cinematic / Soundtrack",
+        "percentage": 5.1,
+        "detectedPlays": 696
+      },
+      {
+        "key": "electronic_atmospheric",
+        "label": "Electronic / Atmospheric",
+        "percentage": 4.6,
+        "detectedPlays": 628
+      },
+      {
+        "key": "hip_hop_rap",
+        "label": "Hip-Hop / Rap",
+        "percentage": 4.2,
+        "detectedPlays": 573
+      },
+      {
+        "key": "mandopop_c_pop",
+        "label": "Mandopop / C-pop",
+        "percentage": 3.5,
+        "detectedPlays": 478
+      },
+      {
+        "key": "r_b_soul_funk",
+        "label": "R&B / Soul / Funk",
+        "percentage": 2.3,
+        "detectedPlays": 314
+      },
+      {
+        "key": "latin_reggaeton",
+        "label": "Latin / Reggaeton",
+        "percentage": 0.5,
+        "detectedPlays": 68
+      },
+      {
+        "key": "other_unclassified",
+        "label": "Other / Unclassified",
+        "percentage": 28.1,
+        "detectedPlays": 3836
+      }
+    ],
+    "interpretation": "Your listening centres on Alternative / Indie Rock, Emo / Pop Punk / Post-Hardcore, with a profile that sounds melodic, anthemic, cathartic, high-energy, dramatic. Secondary colour comes from Heavy Alternative / Metalcore, Pop / Pop Rock Crossover, Electronic / Atmospheric."
+  },
+  "musicalAge": {
+    "age": 12,
+    "likelyMin": 5,
+    "likelyMax": 20,
+    "title": "The 2010s Time Capsule",
+    "confidence": 0.69,
+    "confidenceLabel": "Good confidence",
+    "explanation": "Your play-weighted release years centre on 2014, with 2020s as the dominant decade. Musical Age measures how old your music is and which eras dominate. It is not your real age.",
+    "typicalRange": [
+      5,
+      20
+    ],
+    "weightedMedianReleaseYear": 2014,
+    "dominantDecade": "2020s",
+    "releaseYearCoverage": 59.3,
+    "sourcePeriod": {
+      "key": "rolling_year",
+      "label": "Rolling year · Oct 4, 2025-Oct 3, 2026",
+      "startDate": "2025-10-04",
+      "endDate": "2026-10-03",
+      "timezone": "Asia/Kuala_Lumpur"
+    }
+  },
+  "topFive": {
+    "songs": [
+      {
+        "rank": 1,
+        "albumImageUrl": "https://yt3.googleusercontent.com/af_jQ-T0nTfQPVpTV7xJSN6FKrSI6fTju7X3-KSB8pmDpXHG7DxQ3KsLSifNnCzs_ETxQ9a13ukCJqNs=w544-h544-l90-rj",
+        "trackImageUrl": "https://i.ytimg.com/vi/ymo9oX83kJI/hqdefault.jpg",
+        "title": "Drown",
+        "artist": "Bring Me The Horizon",
+        "album": "That's The Spirit",
+        "detectedPlays": 158,
+        "detectedMinutes": 603.9,
+        "formattedMinutes": "10 hr 04 min"
+      },
+      {
+        "rank": 2,
+        "albumImageUrl": "https://yt3.googleusercontent.com/v_9D7-qcGPdGaKb-sA5wBwpY9SXsUZdzMLFcaR_AQRsY84iQnOEfI9hKUh5B1Veb_HElggrbVRDVp5yl=w544-h544-l90-rj",
+        "trackImageUrl": "https://i.ytimg.com/vi/pqfZYvsTkkk/hqdefault.jpg",
+        "title": "I Don't Love You",
+        "artist": "My Chemical Romance",
+        "album": "The Black Parade",
+        "detectedPlays": 120,
+        "detectedMinutes": 458.1,
+        "formattedMinutes": "7 hr 38 min"
+      },
+      {
+        "rank": 3,
+        "albumImageUrl": "https://yt3.googleusercontent.com/SP6xIjtaVOa9HYznOKdH-Ay59tZ_JSxF_ecD5aNDzuvt0LXzD1u1kt1ZPuSfeCIv2nNwTKAGDGXCtrU=w544-h544-l90-rj",
+        "trackImageUrl": "https://i.ytimg.com/vi/AxuTd9rwEHQ/hqdefault.jpg",
+        "title": "Everlong",
+        "artist": "Foo Fighters",
+        "album": "The Colour And The Shape",
+        "detectedPlays": 111,
+        "detectedMinutes": 430.9,
+        "formattedMinutes": "7 hr 11 min"
+      },
+      {
+        "rank": 4,
+        "albumImageUrl": "https://yt3.googleusercontent.com/MkXntvRCesUrGpKPgeRDXXtJpV4vgIju-rzfmScxTP2Tqc-XVLasdbxEVf1Jl9IhIgx7BUC5KHft2iU=w544-h544-l90-rj",
+        "trackImageUrl": "https://i.ytimg.com/vi/1Y6MNSVNxf8/hqdefault.jpg",
+        "title": "Sleepwalking",
+        "artist": "Bring Me The Horizon",
+        "album": "Sempiternal (Expanded Edition)",
+        "detectedPlays": 109,
+        "detectedMinutes": 331.1,
+        "formattedMinutes": "5 hr 31 min"
+      },
+      {
+        "rank": 5,
+        "albumImageUrl": "https://yt3.googleusercontent.com/soFyZYOggw-Ae05b91WiVDnq9ahXLOrNJiR4wWiQemfclVliG_BHht1bH6f0cjLB0KzKlyGBTsPrtQEn=w544-h544-l90-rj",
+        "trackImageUrl": "https://i.ytimg.com/vi/m2zUrruKjDQ/hqdefault.jpg",
+        "title": "Mr. Brightside",
+        "artist": "The Killers",
+        "album": "Hot Fuss",
+        "detectedPlays": 99,
+        "detectedMinutes": 349.4,
+        "formattedMinutes": "5 hr 49 min"
+      }
+    ],
+    "artists": [
+      {
+        "rank": 1,
+        "artistImageUrl": null,
+        "name": "Bring Me The Horizon",
+        "detectedPlays": 1354.0,
+        "uniqueSongs": 88
+      },
+      {
+        "rank": 2,
+        "artistImageUrl": null,
+        "name": "My Chemical Romance",
+        "detectedPlays": 666.0,
+        "uniqueSongs": 40
+      },
+      {
+        "rank": 3,
+        "artistImageUrl": null,
+        "name": "Wisp",
+        "detectedPlays": 481.0,
+        "uniqueSongs": 24
+      },
+      {
+        "rank": 4,
+        "artistImageUrl": null,
+        "name": "Deftones",
+        "detectedPlays": 450.0,
+        "uniqueSongs": 28
+      },
+      {
+        "rank": 5,
+        "artistImageUrl": null,
+        "name": "Oasis",
+        "detectedPlays": 324.0,
+        "uniqueSongs": 28
+      }
+    ]
+  },
+  "summary": {
+    "headline": "A Symphony of Intensity",
+    "body": "It’s fascinating how consistently you return to these artists, like a moth to a particularly dramatic flame. The repetition suggests a deep engagement, a need to revisit these sonic textures, almost as if you’re conducting a private, intensely personal concert. You’re building a cathedral of sound, brick by brick, with each listen. It’s a bold choice, a commitment to the grand, sweeping gestures of music, and frankly, it’s a little exhausting to witness. You’re not afraid of a big chorus, a soaring guitar, or a moment of quiet reflection – you embrace the full spectrum of emotional volume. It’s a remarkably focused dedication to the dramatic, and honestly, it’s impressive, if a tad… committed.",
+    "finalLine": "You’re clearly auditioning for the role of soundtrack to a dystopian future.",
+    "generationSource": "cache-gemma"
+  },
+  "explainers": {
+    "musicalAges": [
+      {
+        "minAge": 0,
+        "maxAge": 2,
+        "title": "The Release-Day Resident",
+        "summary": "Mostly brand-new releases and current music."
+      },
+      {
+        "minAge": 3,
+        "maxAge": 5,
+        "title": "The Recent Rotation",
+        "summary": "Recent music dominates, supported by a smaller established catalogue."
+      },
+      {
+        "minAge": 6,
+        "maxAge": 9,
+        "title": "The Late-2010s Native",
+        "summary": "Late-2010s and early-2020s releases form the centre."
+      },
+      {
+        "minAge": 10,
+        "maxAge": 14,
+        "title": "The 2010s Time Capsule",
+        "summary": "Music from the 2010s forms the core of the listening history."
+      },
+      {
+        "minAge": 15,
+        "maxAge": 24,
+        "title": "The Y2K Archive",
+        "summary": "Mostly 2000s and early-2010s music."
+      },
+      {
+        "minAge": 25,
+        "maxAge": 39,
+        "title": "The CD-Era Resident",
+        "summary": "Strong 1980s, 1990s and early-2000s presence."
+      },
+      {
+        "minAge": 40,
+        "maxAge": 100,
+        "title": "The Vinyl Time Traveller",
+        "summary": "Older classics form the core of the library."
+      }
+    ],
+    "personalities": [
+      {
+        "id": "divorced_dad_rock_station",
+        "name": "The Divorced-Dad Rock Station",
+        "category": "Rock",
+        "profile": "Big riffs, familiar choruses and guitar anthems sit at the centre of your listening profile."
+      },
+      {
+        "id": "never_a_phase",
+        "name": "It Was Never a Phase",
+        "category": "Emo / Pop Punk",
+        "profile": "Emotionally direct choruses, catharsis and dramatic alternative music remain close to the centre."
+      },
+      {
+        "id": "tiktok_slop_connoisseur",
+        "name": "The TikTok Slop Connoisseur",
+        "category": "Singles",
+        "profile": "Fast hooks and individual tracks take over the rotation before the next earworm arrives."
+      },
+      {
+        "id": "classical_supremacist",
+        "name": "The Classical Supremacist",
+        "category": "Classical",
+        "profile": "Formal composition, orchestral scale and carefully arranged music carry your profile."
+      },
+      {
+        "id": "girly_pop_commander",
+        "name": "The Girly-Pop Commander",
+        "category": "Pop",
+        "profile": "Hooks are policy, bridges are sacred and every journey has stadium-tour potential."
+      },
+      {
+        "id": "club_closing_time_resident",
+        "name": "The Club-Closing-Time Resident",
+        "category": "Electronic",
+        "profile": "Rhythm, bass and forward momentum matter more than sitting quietly with the lyrics."
+      },
+      {
+        "id": "main_character_rain_scene",
+        "name": "The Main Character in a Rain Scene",
+        "category": "Alternative / Indie",
+        "profile": "Atmosphere, introspection and emotional world-building turn familiar songs into entire environments."
+      },
+      {
+        "id": "heavy_music_therapist",
+        "name": "The Heavy-Music Therapist",
+        "category": "Heavy Alternative",
+        "profile": "Distorted guitars, intensity and cathartic choruses provide your preferred emotional processing."
+      },
+      {
+        "id": "late_night_rnb_philosopher",
+        "name": "The Late-Night R&B Philosopher",
+        "category": "R&B / Soul",
+        "profile": "Smooth, intimate and reflective music turns the listening profile into a late-night internal monologue."
+      },
+      {
+        "id": "aux_cord_menace",
+        "name": "The Aux-Cord Menace",
+        "category": "Hip-Hop / Rap",
+        "profile": "Bass, confidence and immediate impact make control of the aux cable feel like a position of authority."
+      },
+      {
+        "id": "campfire_lore_keeper",
+        "name": "The Campfire Lore Keeper",
+        "category": "Folk / Country",
+        "profile": "Stories, places and human detail matter more than flashy production."
+      },
+      {
+        "id": "jazz_bar_overthinker",
+        "name": "The Jazz-Bar Overthinker",
+        "category": "Jazz",
+        "profile": "Improvisation, rhythm and instrumental detail reward listening closely rather than treating music as background noise."
+      }
+    ]
+  },
+  "backgroundAlbums": [
+    {
+      "albumBrowseId": "MPREb_4rS6mnBPPsD",
+      "albumTitle": "That's The Spirit",
+      "artistName": "Bring Me The Horizon",
+      "albumImageUrl": "https://yt3.googleusercontent.com/af_jQ-T0nTfQPVpTV7xJSN6FKrSI6fTju7X3-KSB8pmDpXHG7DxQ3KsLSifNnCzs_ETxQ9a13ukCJqNs=w544-h544-l90-rj",
+      "detectedPlays": 488
+    },
+    {
+      "albumBrowseId": "MPREb_ZgWMotVlM2a",
+      "albumTitle": "The Black Parade",
+      "artistName": "My Chemical Romance",
+      "albumImageUrl": "https://yt3.googleusercontent.com/v_9D7-qcGPdGaKb-sA5wBwpY9SXsUZdzMLFcaR_AQRsY84iQnOEfI9hKUh5B1Veb_HElggrbVRDVp5yl=w544-h544-l90-rj",
+      "detectedPlays": 382
+    },
+    {
+      "albumBrowseId": "MPREb_ZYANR90OPDm",
+      "albumTitle": "Sempiternal (Expanded Edition)",
+      "artistName": "Bring Me The Horizon",
+      "albumImageUrl": "https://yt3.googleusercontent.com/MkXntvRCesUrGpKPgeRDXXtJpV4vgIju-rzfmScxTP2Tqc-XVLasdbxEVf1Jl9IhIgx7BUC5KHft2iU=w544-h544-l90-rj",
+      "detectedPlays": 355
+    },
+    {
+      "albumBrowseId": "MPREb_aHMynU56tGN",
+      "albumTitle": "Pandora",
+      "artistName": "Wisp",
+      "albumImageUrl": "https://yt3.googleusercontent.com/sCU5aotljlf7xjJO7p98ITvAgYG2_YVu-1sehicBelIptlmWyaWA9LypFD0XA5W9pWXmm7o9oHsSB0jy=w544-h544-l90-rj",
+      "detectedPlays": 263
+    },
+    {
+      "albumBrowseId": "MPREb_Z0pddviHS8W",
+      "albumTitle": "Live at the Royal Albert Hall",
+      "artistName": "Bring Me The Horizon",
+      "albumImageUrl": "https://yt3.googleusercontent.com/H4k0Lfz9v64259EocxfEAPJKdZHw95_LOtDOsCLPH2ejFVZdR6js2kLx52BIrDm3mLIdLprQ_-r8Z-Rf=w544-h544-l90-rj",
+      "detectedPlays": 220
+    },
+    {
+      "albumBrowseId": "MPREb_rRt5kSRXjUU",
+      "albumTitle": "private music",
+      "artistName": "Deftones",
+      "albumImageUrl": "https://yt3.googleusercontent.com/b_tdlqQT73MOSAgEH3idi22LqGsdrFEqxGSJUo2F-CAkIJFuwtOaB8ZSjNUhx2z9iwUbbCFnqoZLrRwD=w544-h544-l90-rj",
+      "detectedPlays": 165
+    },
+    {
+      "albumBrowseId": "MPREb_4KwRu9kwmAY",
+      "albumTitle": "Three Cheers for Sweet Revenge",
+      "artistName": "My Chemical Romance",
+      "albumImageUrl": "https://yt3.googleusercontent.com/5JtzMbsUJfBViHSlte4ddyD7kd__O7w7JtK1Icwwb8xXMQZkgy7DYfKnVS57oEvEBQwlv6Z1VhbVdcpx8A=w544-h544-l90-rj",
+      "detectedPlays": 151
+    },
+    {
+      "albumBrowseId": "MPREb_gHkNkQi2oio",
+      "albumTitle": "Nectar",
+      "artistName": "Joji",
+      "albumImageUrl": "https://yt3.googleusercontent.com/6r6K9xQsg5XVqxLxz9G_dvA8ioESCbnMAzErtp-etThfC27H1yPfqSrfYXvb0562TUSGGDCBF4u-ahYb=w544-h544-l90-rj",
+      "detectedPlays": 144
+    },
+    {
+      "albumBrowseId": "MPREb_9nqEki4ZDpp",
+      "albumTitle": "(What's The Story) Morning Glory? (Remastered)",
+      "artistName": "Oasis",
+      "albumImageUrl": "https://yt3.googleusercontent.com/FoVQFdW6zBi3sNA_yZJSV3VTWmi0belhhFzleuEbn27utkirstj1woXHfWmWqkNyHla37ZFbk_F6jvVV=w544-h544-l90-rj",
+      "detectedPlays": 127
+    },
+    {
+      "albumBrowseId": "MPREb_0sPSzJVG7Ic",
+      "albumTitle": "A Beautiful Lie",
+      "artistName": "Thirty Seconds To Mars",
+      "albumImageUrl": "https://yt3.googleusercontent.com/TicxJGyYHkWvVfNrfXn95OYK3FVmRTsk5iFgz6AD-yT1QmWlXdVuPwY_1xT8rFL3eSoKvl_IZk1fNMwo=w544-h544-l90-rj",
+      "detectedPlays": 119
+    },
+    {
+      "albumBrowseId": "MPREb_HHjVErL4Pce",
+      "albumTitle": "If Not Winter",
+      "artistName": "Wisp",
+      "albumImageUrl": "https://yt3.googleusercontent.com/MPWkztnwMimBUwg5Uth_Gww9oRSUQ6rOLMJZK_2EDoNFgk36UKhnYUsdgJqep4i6MAHlF4mBupKNv0ZG=w544-h544-l90-rj",
+      "detectedPlays": 108
+    },
+    {
+      "albumBrowseId": "MPREb_LU3E5vWgwfG",
+      "albumTitle": "Hot Fuss",
+      "artistName": "The Killers",
+      "albumImageUrl": "https://yt3.googleusercontent.com/soFyZYOggw-Ae05b91WiVDnq9ahXLOrNJiR4wWiQemfclVliG_BHht1bH6f0cjLB0KzKlyGBTsPrtQEn=w544-h544-l90-rj",
+      "detectedPlays": 100
+    },
+    {
+      "albumBrowseId": "MPREb_lCyPLmIyPYt",
+      "albumTitle": "POST HUMAN: NeX GEn",
+      "artistName": "Bring Me The Horizon",
+      "albumImageUrl": "https://yt3.googleusercontent.com/4DME7r7QWjUVOGb-ZxOBV8PAXBWhD7Ujcu1KwUd5dyn22Nurz9FdSSp8ONozJPbFiITEZgEe6NmkHjwJ=w544-h544-l90-rj",
+      "detectedPlays": 98
+    },
+    {
+      "albumBrowseId": "MPREb_XTvtN2WnDiB",
+      "albumTitle": "Cigarettes After Sex",
+      "artistName": "Cigarettes After Sex",
+      "albumImageUrl": "https://yt3.googleusercontent.com/LHBhxCNvBYMqTtgBAOf83nUpFKI6DH-jGw0u6SAM3WnQ-OGXD8geTcB3P10nLolxqj8WItfiGL7kX7vv=w544-h544-l90-rj",
+      "detectedPlays": 87
+    },
+    {
+      "albumBrowseId": "MPREb_odlufsXOQ9j",
+      "albumTitle": "F1 The Album (Cinematic Edition)",
+      "artistName": "Hans Zimmer",
+      "albumImageUrl": "https://yt3.googleusercontent.com/RXy1W6Im-vFy5N7U0Z3pZ8X-O-2ATIJItZwrWwV0dv9OGjc5B34myigBukDql_xLz7Q_DVCJPWxq7p0=w544-h544-l90-rj",
+      "detectedPlays": 82
+    },
+    {
+      "albumBrowseId": "MPREb_ZeXQtMnnaDv",
+      "albumTitle": "Saturday Night Wrist",
+      "artistName": "Deftones",
+      "albumImageUrl": "https://yt3.googleusercontent.com/TOBgRvdH0szlTWlLMr5krn9lpO7XwmqlcoYflg4YQlLsEWH-CxREc-WTH1vw9oqsyj7zrlA0fSKkDZw=w544-h544-l90-rj",
+      "detectedPlays": 81
+    },
+    {
+      "albumBrowseId": "MPREb_b9Yfli6Cg79",
+      "albumTitle": "OK Computer OKNOTOK 1997 2017",
+      "artistName": "Radiohead",
+      "albumImageUrl": "https://yt3.googleusercontent.com/gdMTA2cTkNFr6COYNygeVpgIpxR2yNg5MjaX02OQqmsU6NlymcR2mqWR0UZe2HaBYVSTHU8lIQamafQC=w544-h544-l90-rj",
+      "detectedPlays": 78
+    },
+    {
+      "albumBrowseId": "MPREb_Yjuw9jDLBok",
+      "albumTitle": "The New Abnormal",
+      "artistName": "The Strokes",
+      "albumImageUrl": "https://yt3.googleusercontent.com/7XBCMOwR2NNvQ0X_OuoyPthJUC2wD0863g-qyLgi0QaGrsvETACOAgh4YKHX8Twb9k9IwKSCCwdGLlAb=w544-h544-l90-rj",
+      "detectedPlays": 72
+    },
+    {
+      "albumBrowseId": "MPREb_14ZiZIb8FcW",
+      "albumTitle": "Idols",
+      "artistName": "YUNGBLUD",
+      "albumImageUrl": "https://yt3.googleusercontent.com/ht0QGRBwCzC4LO0F8uzNPoxFubJstEIFvbnlk4mXgcbzIrQ37MhDB_8hDDIkVNWWLs1WgQD9xs0RX-mL-g=w544-h544-l90-rj",
+      "detectedPlays": 71
+    },
+    {
+      "albumBrowseId": "MPREb_ebWSmYnO2aa",
+      "albumTitle": "Meteora (Bonus Edition)",
+      "artistName": "Linkin Park",
+      "albumImageUrl": "https://yt3.googleusercontent.com/Rqh2HDAD-Fj1-oHYqVklPGklMHIV3r6SMPMZmFE3FlLiWeBBnP3SCESfgeNdzQ-DmpCIvOGE4J0hzVxa=w544-h544-s-l90-rj",
+      "detectedPlays": 71
+    }
+  ],
+  "generation": {
+    "source": "cache-gemma",
+    "model": "gemma3:4b",
+    "promptVersion": 11,
+    "generatedAt": "2026-10-03T23:08:17.842966+08:00",
+    "fallbackReason": null,
+    "durationMs": 8108
+  }
+}

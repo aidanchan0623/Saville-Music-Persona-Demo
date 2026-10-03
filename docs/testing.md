@@ -2,9 +2,9 @@
 
 **Date:** 3 October 2026  
 **Environment:** Windows, Python 3.12, Node.js 24, local FastAPI / Vite / Ollama  
-**Source baseline:** `274624f90cec4fe4a0c2cbf28af9b0e544d548c3` in the development repository, plus local corrections described below.
+**Verified source:** [3c38ed3](https://github.com/aidanchan0623/Saville-Music-Persona/commit/3c38ed3) in the development repository.
 
-This report covers the local application used for the screenshots. It is not a claim that the unchanged remote source has passed the corrected suite.
+This report covers the corrected application used for the screenshots. The matching source changes are published in the development repository.
 
 ## Automated checks
 
@@ -12,11 +12,11 @@ This report covers the local application used for the screenshots. It is not a c
 |---|---|---|
 | Initial backend suite | `python -m pytest tests --tb=short` | 216 passed, 3 failed |
 | Targeted regression and contract checks after corrections | Selected schema, API, report and import-job test modules | 40 passed |
-| Full backend suite after corrections and historical import fixes | `python -m pytest backend/tests -q` | **225 passed** |
+| Full backend suite after import and Gemma reliability fixes | `python -m pytest backend/tests -q` | **229 passed** |
 | Frontend tests | `npm run test` | **6 passed** |
 | Production frontend build | `npm run build` | **Passed** |
 
-## Corrections made locally
+## Corrections published
 
 ### Demo profiles were being treated as stale Takeout imports
 
@@ -28,7 +28,7 @@ The correction applies import-migration status to an active real Takeout import 
 
 Three tests used fixed July 2026 records while asking for the current month. Running them in October made the expected rankings empty. The tests now fix their reference date to the intended July test period. Production date handling was not changed.
 
-These changes remain in the local checkout. No source changes were pushed to either existing Saville repository. This public repository contains presentation material only.
+The changes are published in Saville-Music-Persona. This separate public repository contains presentation material, screenshots and demo data.
 
 ### Historical exports and optional catalogue lookups
 
@@ -38,11 +38,19 @@ Import uses local records and existing metadata caches. Catalogue enrichment sta
 
 Tests now use separate temporary storage before API module imports. This prevents test coordinators from marking a running application's metadata job as interrupted. Regression coverage also checks that imports do not initiate catalogue artwork lookups and that a metadata deadline retains completed results while leaving unattempted records available.
 
-The real-history top recording counts were independently recomputed from events and matched the API. Private export contents, personal rankings and screenshots are not included in this repository.
+The real-history top recording counts were independently recomputed from events and matched the API. Approved aggregate rankings and fresh real-profile screenshots are now included. Individual real listening timestamps and the raw export remain local.
 
 Overview active-day counts and history dates now use the selected local timezone, matching the canonical period profile across midnight. A regression test covers two UTC dates falling on the same Malaysian calendar day. The interface also shows both ends of the history range.
 
-## Browser walkthrough
+## Gemma correction and real-profile verification
+
+The earlier real-history failure used a generic validation reason; its exact rejected condition was not stored. Inspection found unnecessary validation of discarded age prose, no repair request, and silently substituted short closing text. See [the investigation](gemma-reliability.md) for the correction and its evidence.
+
+Live generation returned valid reports in roast, serious and playful modes. One length rejection was corrected by the bounded second attempt. Browser regeneration with the imported profile then completed in 8.108 seconds, with prompt version 11, Gemma provenance and no fallback reason. The stored report read returned `cache-gemma`.
+
+The new importable fixture was parsed and normalised independently: 30 music events and six recording IDs. Its dates and repetitions are generated, not extracted individual listening events.
+
+## Earlier anonymous browser walkthrough
 
 | Flow | Observation |
 |---|---|
@@ -62,10 +70,12 @@ Overview active-day counts and history dates now use the selected local timezone
 - Missing genre evidence now displays `Still mapping`, with an explicit incomplete-metadata explanation. The original demo screenshots predate this wording fix.
 - The duration summary estimates detected music minutes from metadata, not actual wall-clock listening time.
 - A personal Takeout upload and approved catalogue metadata lookups were exercised locally. Account authentication, Spotify live flows and playlist creation remain untested live integrations.
-- Gemma succeeded for the anonymous demonstration. Regeneration with the later historical import failed language validation and correctly used deterministic fallback text; the numeric evidence and report remained available.
+- The original historical-import failure is retained as investigation context. The corrected generator now succeeds with that imported profile. Future rejected or offline generations still use labelled deterministic fallback; these runs are not a reliability benchmark.
 - Backend tests emitted a TestClient/httpx deprecation warning. The production build emitted large-chunk warnings. Neither prevented completion.
 - This was a functional walkthrough, not load, security, usability, or recommendation-quality testing.
 
 ## Screenshot provenance
 
-All screenshots are actual local-app captures using built-in fictional tracks and artists. No personal listening export, account credential, database, or raw application source is published in this presentation repository.
+All screenshots are actual local-app captures. Assets 01–07 show the earlier fictional demonstration; assets 10–13 show the approved real imported profile. The report and Insights use a rolling year; the new Overview and Top Songs use All History. Their periods are visible on the page.
+
+The raw export, credentials and local database are excluded. `demo/listening-summary.json` contains real aggregate evidence; `demo/persona-report.json` contains the real generated report; `demo/takeout-sample.json` contains synthetic listening events for six real favourite songs.

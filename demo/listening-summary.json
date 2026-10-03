@@ -1,0 +1,266 @@
+{
+  "dataset": "Owner-approved listening-history demonstration",
+  "published_on": "2026-10-03",
+  "period": {
+    "label": "All available history",
+    "start_date": "2024-04-23",
+    "end_date": "2026-07-28",
+    "timezone": "Asia/Kuala_Lumpur"
+  },
+  "figures": {
+    "raw_event_count": 42900,
+    "accepted_play_count": 26325,
+    "active_days": 790,
+    "unique_track_count": 4144,
+    "unique_artist_count": 2006,
+    "detected_minutes": 53421.7,
+    "duration_coverage": 45.9,
+    "timestamp_coverage": 100.0,
+    "genre_coverage": 70.6,
+    "release_year_coverage": 58.4
+  },
+  "top_artists": [
+    {
+      "rank": 1,
+      "artist": "My Chemical Romance",
+      "play_count": 1465,
+      "detected_minutes": 4562.4
+    },
+    {
+      "rank": 2,
+      "artist": "Bring Me The Horizon",
+      "play_count": 1356,
+      "detected_minutes": 3390.2
+    },
+    {
+      "rank": 3,
+      "artist": "Radiohead",
+      "play_count": 1232,
+      "detected_minutes": 4303.9
+    },
+    {
+      "rank": 4,
+      "artist": "Linkin Park",
+      "play_count": 1127,
+      "detected_minutes": 3009.3
+    },
+    {
+      "rank": 5,
+      "artist": "Cigarettes After Sex",
+      "play_count": 697,
+      "detected_minutes": 1393.5
+    },
+    {
+      "rank": 6,
+      "artist": "Oasis",
+      "play_count": 595,
+      "detected_minutes": 2563.7
+    },
+    {
+      "rank": 7,
+      "artist": "Hans Zimmer",
+      "play_count": 529,
+      "detected_minutes": 1479.1
+    },
+    {
+      "rank": 8,
+      "artist": "Wisp",
+      "play_count": 481,
+      "detected_minutes": 1278.7
+    },
+    {
+      "rank": 9,
+      "artist": "Thirty Seconds To Mars",
+      "play_count": 478,
+      "detected_minutes": 1684.1
+    },
+    {
+      "rank": 10,
+      "artist": "Deftones",
+      "play_count": 478,
+      "detected_minutes": 1587.1
+    }
+  ],
+  "top_songs": [
+    {
+      "rank": 1,
+      "title": "I Don't Love You",
+      "artist": "My Chemical Romance",
+      "play_count": 248,
+      "detected_minutes": 968.0
+    },
+    {
+      "rank": 2,
+      "title": "Waiting for the End",
+      "artist": "Linkin Park",
+      "play_count": 177,
+      "detected_minutes": 678.5
+    },
+    {
+      "rank": 3,
+      "title": "Drown",
+      "artist": "Bring Me The Horizon",
+      "play_count": 160,
+      "detected_minutes": 611.3
+    },
+    {
+      "rank": 4,
+      "title": "Disenchanted",
+      "artist": "My Chemical Romance",
+      "play_count": 159,
+      "detected_minutes": 644.1
+    },
+    {
+      "rank": 5,
+      "title": "Helena",
+      "artist": "My Chemical Romance",
+      "play_count": 159,
+      "detected_minutes": 461.2
+    },
+    {
+      "rank": 6,
+      "title": "Everlong",
+      "artist": "Foo Fighters",
+      "play_count": 148,
+      "detected_minutes": 564.8
+    },
+    {
+      "rank": 7,
+      "title": "Fake Plastic Trees",
+      "artist": "Radiohead",
+      "play_count": 147,
+      "detected_minutes": 713.8
+    },
+    {
+      "rank": 8,
+      "title": "Ode To The Mets",
+      "artist": "The Strokes",
+      "play_count": 137,
+      "detected_minutes": 826.5
+    },
+    {
+      "rank": 9,
+      "title": "Let Down",
+      "artist": "Radiohead",
+      "play_count": 124,
+      "detected_minutes": 600.0
+    },
+    {
+      "rank": 10,
+      "title": "Creep",
+      "artist": "Radiohead",
+      "play_count": 122,
+      "detected_minutes": 485.2
+    }
+  ],
+  "genre_shares": {
+    "items": [
+      {
+        "name": "Other / Unclassified",
+        "value": 29.3
+      },
+      {
+        "name": "Alternative / Indie Rock",
+        "value": 21.9
+      },
+      {
+        "name": "Metal / Metalcore",
+        "value": 6.1
+      },
+      {
+        "name": "Shoegaze / Dream Pop",
+        "value": 5.7
+      },
+      {
+        "name": "Emo / Post-Hardcore",
+        "value": 5.6
+      },
+      {
+        "name": "Classical / Cinematic / Soundtrack",
+        "value": 5.3
+      },
+      {
+        "name": "Hip-Hop / Rap",
+        "value": 4.4
+      },
+      {
+        "name": "Mainstream Pop",
+        "value": 3.7
+      },
+      {
+        "name": "EDM / Bass Music",
+        "value": 3.4
+      },
+      {
+        "name": "Punk / Pop Punk",
+        "value": 2.7
+      },
+      {
+        "name": "Alternative / Indie Pop",
+        "value": 2.3
+      },
+      {
+        "name": "Mandopop",
+        "value": 2.2
+      },
+      {
+        "name": "Pop Rock",
+        "value": 1.9
+      },
+      {
+        "name": "R&B / Soul",
+        "value": 1.6
+      },
+      {
+        "name": "House",
+        "value": 0.8
+      },
+      {
+        "name": "Dance Pop / Europop",
+        "value": 0.7
+      },
+      {
+        "name": "Post-Punk / Goth / Darkwave",
+        "value": 0.6
+      },
+      {
+        "name": "Ambient / Experimental Electronic",
+        "value": 0.5
+      },
+      {
+        "name": "Classic Rock / Hard Rock",
+        "value": 0.4
+      },
+      {
+        "name": "Jazz / Blues / Funk",
+        "value": 0.3
+      },
+      {
+        "name": "Latin Urban",
+        "value": 0.3
+      },
+      {
+        "name": "Country / Folk",
+        "value": 0.1
+      },
+      {
+        "name": "K-pop",
+        "value": 0.1
+      },
+      {
+        "name": "Cantopop",
+        "value": 0.1
+      },
+      {
+        "name": "J-Pop / J-Rock",
+        "value": 0.0
+      }
+    ],
+    "coveragePercent": 70.6
+  },
+  "notes": [
+    "Aggregates describe the available export, which ends on 28 July 2026.",
+    "Detected minutes are full-track-length estimates for records with metadata, not measured listening time.",
+    "The separately importable sample uses synthetic timestamps and a small subset of songs; it does not recreate these whole-history totals."
+  ]
+}
