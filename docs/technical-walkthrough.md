@@ -6,7 +6,7 @@ The application accepts Google Takeout history formats and supports optional You
 
 Overlapping copies of an occurrence can be removed without deleting genuine repeated plays. Recording identity keeps versions such as live, remix, acoustic, and remaster separate. Artist and genre enrichment adds evidence where available, rather than assigning every unfamiliar name to a genre.
 
-These are implementation capabilities verified from the source and automated tests. The browser walkthrough used the built-in synthetic dataset, not a newly imported personal export.
+The public browser walkthrough uses the built-in synthetic dataset. A separate historical HTML Takeout ZIP was also imported and analysed locally; its personal contents are excluded from this presentation.
 
 ## 2. One period, consistent evidence
 
@@ -28,7 +28,11 @@ Track-duration totals represent detected music minutes, not exact elapsed listen
 
 The synthetic artists have no canonical genre mappings in this run. Insights correctly shows 0% classified and 100% unclassified genre coverage. Genre-dependent scores and interpretations should be read with that limitation in mind.
 
-The Overview fallback still includes the literal word `unknown` in its sound description. Improving that empty-metadata copy is a remaining UI task; the screenshots do not conceal it.
+When genre evidence is absent, Overview now displays `Still mapping` and explains the coverage gap. The original anonymous screenshots predate this copy change.
+
+For older exports, Overview opens at the latest imported month if the current month has no plays. It preserves the calendar labels: an export ending months ago does not establish what happened afterwards.
+
+Catalogue enrichment is an explicit optional action after local import. Exact video IDs provide duration and identity evidence; release-year matching requires supported song and artist matches. MusicBrainz adds genres only when confidence checks accept a match. Bounded batches, request timeouts and incremental cache checkpoints make completed work reusable after interruption. A batch can improve metadata without implying full coverage.
 
 ## 4. Local language, fixed facts
 

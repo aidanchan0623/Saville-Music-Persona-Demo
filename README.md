@@ -90,12 +90,14 @@ The local application supports YouTube Music and a separate optional Spotify pro
 
 | Check | Result |
 |---|---|
-| Backend automated suite, after local corrections | **221 passed** |
+| Backend automated suite, after local corrections | **225 passed** |
 | Frontend import tests | **6 passed** |
 | Production frontend build | **Passed** |
 | Demo loading, period changes, rankings, rhythm controls | **Verified in the browser** |
 | Local Gemma report regeneration | **Succeeded** |
 | Anonymous recommendation generation | **20 picks generated** |
+| Historical HTML Takeout import | **Verified locally; personal data kept private** |
+| Optional catalogue enrichment | **Completed a bounded batch with saved progress** |
 
 The backend results describe the locally corrected checkout. Those corrections have **not** been pushed to the development repository. See the [test report](docs/testing.md) for the changes, remaining limitations, and untested integrations.
 
