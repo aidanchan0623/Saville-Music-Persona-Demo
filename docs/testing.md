@@ -62,6 +62,7 @@ Overview active-day counts and history dates now use the selected local timezone
 - Missing genre evidence now displays `Still mapping`, with an explicit incomplete-metadata explanation. The original demo screenshots predate this wording fix.
 - The duration summary estimates detected music minutes from metadata, not actual wall-clock listening time.
 - A personal Takeout upload and approved catalogue metadata lookups were exercised locally. Account authentication, Spotify live flows and playlist creation remain untested live integrations.
+- Gemma succeeded for the anonymous demonstration. Regeneration with the later historical import failed language validation and correctly used deterministic fallback text; the numeric evidence and report remained available.
 - Backend tests emitted a TestClient/httpx deprecation warning. The production build emitted large-chunk warnings. Neither prevented completion.
 - This was a functional walkthrough, not load, security, usability, or recommendation-quality testing.
 
