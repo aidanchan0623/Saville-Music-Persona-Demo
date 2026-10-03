@@ -10,7 +10,7 @@ I built Saville to explore the patterns behind my music: the songs I return to, 
 
 ![My imported listening history, with complete date boundaries and play counts](assets/13-real-overview.png)
 
-*Actual application screenshot. My export covers 23 April 2024–28 July 2026; it does not establish my listening after July.*
+*Note: I analysed my export from 23 April 2024 to 28 July 2026. I do not have listening records after July in this dataset.*
 
 This is the public presentation repository. [Application source and setup](https://github.com/aidanchan0623/Saville-Music-Persona) are maintained separately. There is no hosted app here.
 
@@ -29,7 +29,7 @@ This is the public presentation repository. [Application source and setup](https
 | Leading song | **I Don't Love You · 248 plays** |
 | Genre / duration / release-year coverage | **70.6% / 45.9% / 58.4%** |
 
-These are aggregate counts from my imported profile, published with my approval. Missing metadata remains visible; detected minutes estimate full track lengths for covered plays, rather than measuring actual listening time.
+These are aggregate counts from my imported profile. Note: my export lacks some metadata, so I display coverage alongside the results. I estimate detected minutes from full track lengths where available; I cannot infer how long I actually listened to each play.
 
 ## 01 / Find the favourites
 
@@ -53,9 +53,9 @@ The Persona Report walks through musical personality, listening world, musical a
 
 ![Successful Gemma generation using my real imported profile](assets/10-real-persona.jpg)
 
-This regeneration completed in approximately **8.1 seconds** on this machine. Its response reports prompt version 11, Gemma generation and no fallback reason. That is an observed run, not a latency or reliability benchmark.
+I regenerated this report in approximately **8.1 seconds** on my machine. I checked prompt version 11, Gemma provenance and the absence of fallback text. Note: this is one observed run; I have not measured typical latency or long-term reliability.
 
-I investigated an earlier validation failure and changed the generator to five named fields, a schema included in the prompt, temperature zero, and one bounded repair attempt. Musical Age stays deterministic. Invalid or unavailable model responses still have a labelled fallback. [Read the investigation and verification](docs/gemma-reliability.md).
+I investigated an earlier validation failure and changed the generator to five named fields, a schema included in the prompt, temperature zero, and one bounded repair attempt. Note: I could not recover the original rejection’s exact cause because the earlier version did not log it. Musical Age stays deterministic. Invalid or unavailable model responses still have a labelled fallback. [Read the investigation and verification](docs/gemma-reliability.md).
 
 **Engineering focus:** keeping model-written language separate from calculated evidence and making fallback behaviour visible.
 
@@ -65,7 +65,7 @@ Recommendations group candidates into safe bets, one step sideways and worth the
 
 ![Earlier anonymous demonstration with twenty fictional recommendations](assets/06-recommendations.jpg)
 
-*This screenshot uses the earlier anonymous fixture: 20 fictional candidates in lanes of 8 / 8 / 4. It demonstrates the interface, not recommendation accuracy. Live playlist creation was not tested.*
+*Note: I used 20 fictional candidates in lanes of 8 / 8 / 4 to demonstrate this interface. I have not evaluated recommendation accuracy or tested live playlist creation.*
 
 ---
 
